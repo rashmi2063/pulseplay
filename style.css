@@ -138,6 +138,7 @@ body{
     border: none;
     font-size: 20px;
     font-weight: 700;
+    
 
 }
 
@@ -172,8 +173,11 @@ body{
     }
     .header>button{
         font-size: 12px;
-        font-weight: 400;
-        /* height: 20px;     */
+        font-weight: 550;
+        width: 40px;    
+        padding: 3px;
+        border-radius: 20px;
+        height:30px ;
     }
     .song{
         width: 145;

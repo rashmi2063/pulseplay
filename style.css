@@ -20,7 +20,7 @@ body{
     
 }
 .header>input{
-    width: 350px;
+    width: 20%;
     height: 40px;
     font-size: 16px;
     font-weight: 500;
@@ -30,6 +30,12 @@ body{
     background-color: rgba(53, 47, 47, 0.625);
     color: white;
     padding-left: 10px;
+    flex-shrink: 1;
+}
+#inp::placeholder {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
 }
 .header>a{
     text-decoration: none;
@@ -49,6 +55,7 @@ body{
     border: none; 
 
 }
+
 .main{
     display: flex;
     align-items: center;
@@ -68,7 +75,7 @@ body{
 
 }
 .right{
-    width: 77%;
+    width: 80%;
     height: 450px;
      overflow: scroll;
     padding-left: 10px;
@@ -160,14 +167,15 @@ body{
         left:25%;
     }
     .header>a{
-        font-size: 14px;
-        font-weight: 400;
+        font-size: 12px;
+        font-weight: 300;
     }
     .header>button{
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 400;
         /* height: 20px;     */
     }
+    
 
 }
 

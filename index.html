@@ -1,0 +1,172 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>pulseplay</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <div class="header">
+            <img src="icon.jpg" alt="" width=50>
+            <input type="text" name="" id="" placeholder="Search your favourite song">
+            <a href="#">Premium</a>
+            <a href="#">Support</a>
+            <a href="#">Download</a>
+            <button>Login</button>
+        </div>
+        <hr>
+        <div class="main">
+            <div class="left">
+                <div style="display: flex;justify-content: space-between;padding: 10px;font-weight: 600;">
+                    <p>Your Library</p>
+                    <p>+</p>
+                </div>
+                <div style="display: flex;flex-direction: column;align-items:flex-start;row-gap: 5px;background-color: rgba(50, 45, 45, 0.396);
+                    border-radius: 12px;padding: 15px;">
+                    <h3>Create your playlist</h3>
+                    <p>It's easy, we'll help you</p>
+                    <button style="padding: 10px;border-radius: 20px;border: none;font-weight: bold;cursor: pointer;">Create playlist</button>
+                </div>
+                <!-- <div style="display: flex;flex-direction: column;align-items:flex-start;row-gap: 5px;background-color: rgba(50, 45, 45, 0.396);
+                    border-radius: 12px;padding: 15px;">
+                    <h3>Create your playlist</h3>
+                    <p>It's easy, we'll help you</p>
+                    <button style="padding: 10px;border-radius: 20px;border: none;font-weight: bold;cursor: pointer;">Create playlist</button>
+                </div>
+                <div style="display: flex;flex-direction: column;align-items:flex-start;row-gap: 5px;background-color: rgba(50, 45, 45, 0.396);
+                    border-radius: 12px;padding: 15px;">
+                    <h3>Create your playlist</h3>
+                    <p>It's easy, we'll help you</p>
+                    <button style="padding: 10px;border-radius: 20px;border: none;font-weight: bold;cursor: pointer;">Create playlist</button>
+                </div>
+                <div style="display: flex;flex-direction: column;align-items:flex-start;row-gap: 5px;background-color: rgba(50, 45, 45, 0.396);
+                    border-radius: 12px;padding: 15px;">
+                    <h3>Create your playlist</h3>
+                    <p>It's easy, we'll help you</p>
+                    <button style="padding: 10px;border-radius: 20px;border: none;font-weight: bold;cursor: pointer;">Create playlist</button>
+                </div> -->
+                <div style="display: flex;flex-direction: column;align-items:flex-start;row-gap: 5px;background-color: rgba(50, 45, 45, 0.396);
+                    border-radius: 12px;padding: 15px;">
+                    <h3>Create your playlist</h3>
+                    <p>It's easy, we'll help you</p>
+                    <button style="padding: 10px;border-radius: 20px;border: none;font-weight: bold;cursor: pointer;">Create playlist</button>
+                </div>
+               
+            </div>
+
+
+            <div class="right">
+               <h1 style="text-align: center;">Trending Songs</h1>
+
+               <div class="list1">
+                 <div class="song">
+                        <img src="img1.jpg" alt="">
+                        <p id="songn1">Dil Kehta hai</p>
+                        <p>Kumar Sanu</p>
+                        <audio src="song1.mp3" id="song1"></audio>
+                        <button onclick="playMusic('song1','songn1')"><img src="play-button.png" width="50" id="icon1"></button>
+                    </div>
+                 <div class="song">
+                        <img src="img2.webp" alt="">
+                        <p id="songn2">Pal Pal dil ke pass</p>
+                        <p>Kishore kumar</p>
+                        <audio src="song2.mp3" id="song2"></audio>
+                        <button onclick="playMusic('song2','songn2')"><img src="play-button.png" width="50"></button>
+                    </div>
+                 <div class="song">
+                        <img src="img3.webp" alt="">
+                       <p id="songn3">Rab kare tujhko</p>
+                        <p>Udit Narayan</p>
+                        <audio src="song3.mp3" id="song3"></audio>
+                        <button onclick="playMusic('song3','songn3')"><img src="play-button.png" width="50"></button>
+                    </div>
+                 <div class="song">
+                        <img src="img4.jpg" alt="">
+                        <p id="songn4">Kheriyat puchho</p>
+                        <p>Arijit Singh</p>
+                        <audio src="song4.mp3" id="song4"></audio>
+                        <button onclick="playMusic('song4','songn4')"><img src="play-button.png" width="50"></button>
+                    </div>
+                 <div class="song">
+                        <img src="img5.webp" alt="">
+                        <p id="songn5">Saiyaraa</p>
+                        <p>Faheem Abdullah</p>
+                        <audio src="song5.mp3" id="song5"></audio>
+                        <button onclick="playMusic('song5','songn5')"><img src="play-button.png" width="50"></button>
+                    </div>
+                 
+                <div class="song">
+                        <img src="img6.webp" alt="">
+                        <p id="songn6">Haan hasi ban gaye</p>
+                        <p>Shreya Ghoshal</p>
+                        <audio src="song6.mp3" id="song6"></audio>
+                        <button onclick="playMusic('song6','songn6')"><img src="play-button.png" width="50"></button>
+                    </div>
+                 
+               </div>
+               <br>
+                <div class="list1">
+                    <div class="song">
+                            <img src="img7.webp" alt="">
+                            <p id="songn7">Jo khabo khayalo me</p>
+                            <p>Krishna Kumar</p>
+                            <audio src="song7.mp3" id="song7"></audio>
+                            <button onclick="playMusic('song7','songn7')"><img src="play-button.png" width="50"></button>
+                        </div>
+                    <div class="song">
+                            <img src="img8.webp" alt="">
+                            <p id="songn8">Zara Si Dil Mein </p>
+                            <p>Krishna Kumar</p>
+                            <audio src="song8.mp3" id="song8"></audio>
+                            <button onclick="playMusic('song8','songn8')"><img src="play-button.png" width="50"></button>
+                        </div>
+                    <div class="song">
+                            <img src="img9.jpg" alt="">
+                            <p id="songn9">Raataan lambiya</p>
+                            <p>Jubin Nautiyal</p>
+                            <audio src="song9.mp3" id="song9"></audio>
+                            <button onclick="playMusic('song9','songn9')"><img src="play-button.png" width="50"></button>
+                        </div>
+                    <div class="song">
+                            <img src="img10.webp" alt="">
+                            <p id="songn10">Duniyaa</p>
+                            <p>Akhil</p>
+                            <audio src="song10.mp3" id="song10"></audio>
+                            <button onclick="playMusic('song10','songn10')"><img src="play-button.png" width="50"></button>
+                        </div>
+                    <div class="song">
+                            <img src="img11.webp" alt="">
+                            <p id="songn11">Chal Diya</p>
+                            <p>Arman Malik</p>
+                            <audio src="song11.mp3" id="song11"></audio>
+                            <button onclick="playMusic('song11','songn11')"><img src="play-button.png" width="50"></button>
+                        </div>
+                    <div class="song">
+                            <img src="img12.webp" alt="">
+                            <p id="songn12">Nile nile ambar</p>
+                            <p>Kishore kumar</p>
+                            <audio src="song12.mp3" id="song12"></audio>
+                            <button onclick="playMusic('song12','songn12')"><img src="play-button.png" width="50"></button>
+                        </div>
+
+                 
+                 
+               </div>
+
+               
+               
+
+            </div>
+
+        </div>
+        <div class="player">
+            <p id="playername"></p>
+            <button onclick="pauseMusic()"><img id="playerbutton" src="play-button.png" alt="" width="50"></button>
+        </div>
+
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
